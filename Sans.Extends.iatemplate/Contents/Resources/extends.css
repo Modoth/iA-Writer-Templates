@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "_Default";
+    src: url("./plugins/fonts/Sk4.ttf");
+    src: url("./plugins/fonts/HanaMinA.ttf");
+    src: url("./plugins/fonts/HanaMinB.ttf");
+}
+
+.image-in-code {
+    border-top: 1px solid #0003;
+    margin-top: 10px;
+}

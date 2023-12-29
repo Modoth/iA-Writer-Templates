@@ -1,0 +1,38 @@
+.terminal-btn-container {
+    position: relative;
+}
+
+.terminal-btn-run {
+    font-family: MD Primer Bold, Rubik, Lato, Lucida Grande, Lucida Sans Unicode, Tahoma, Sans-Serif;
+    font-weight: 700;
+    font-size: .5rem;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.4rem;
+    /* color: #ff7a18!important; */
+}
+
+.terminal-btn-result {
+    display: none;
+    font-family: monospace;
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+    font-size: .75rem;
+    color: #888;
+}
+
+.terminal-btn-run::before {
+    content: "RUN";
+}
+
+.terminal-opened .terminal-btn-result {
+    display: block;
+}
+
+.terminal-executed .terminal-btn-run::before {
+    content: "SHOW";
+}
+
+.terminal-executed.terminal-opened .terminal-btn-run::before {
+    content: "HIDE";
+}

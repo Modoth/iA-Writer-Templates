@@ -1,0 +1,20 @@
+@import url("./libs/mermaid.css");
+
+html .markdown-body pre code.mermaid,
+html .markdown-body pre code.objective-c\+\+ {
+    display: none !important;
+}
+
+.plot-autogen {
+    background: unset !important;
+    background-color: unset !important;
+}
+
+.plot-autogen>svg {
+    margin: 0 auto;
+    display: block;
+}
+
+.fa {
+    font-family: FontAwesome !important;
+}
